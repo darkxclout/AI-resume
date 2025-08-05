@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result - AI Resume Screener</title>
+</head>
+<body>
+    <h2>Match Score: {{ score }}%</h2>
+    <p><strong>Name:</strong> {{ data.name }}</p>
+    <p><strong>Skills Found:</strong> {{ data.skills }}</p>
+    <p><strong>Job Keywords:</strong> {{ jd }}</p>
+    <hr>
+    <h3>Resume Preview:</h3>
+    <p>{{ data.text }}</p>
+    <a href="/">Try another</a>
+</body>
+</html>
